@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Munchkin Level Counter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI generated (vibe coded) application.
+A simple and clean web application to track player levels for the Munchkin card game. Built with React and TypeScript, this app provides a straightforward interface to manage the game state without any backend.
 
-## Available Scripts
+![image](https://github.com/ivan-noskov/munchkin-level-counter/assets/38481483/108ec96a-0865-4d7a-b509-f83696f8c7b4)
 
-In the project directory, you can run:
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Add & List Players**: Easily add new players to the game session.
+- **Level Tracking**: Each player has a level counter that starts at 1.
+- **Increase/Decrease Level**: Simple `+` and `-` buttons to modify a player's level.
+- **Level 1 Minimum**: Player levels cannot go below 1.
+- **Clean UI**: A minimalist interface that focuses on functionality.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **[React](https://reactjs.org/)**: A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **[Create React App](https://create-react-app.dev/)**: Used to set up the development environment.
+- **[GitHub Pages](https://pages.github.com/)**: For easy deployment and hosting.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (or yarn) installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation & Setup
 
-### `npm run eject`
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/munchkin-level-counter.git](https://github.com/YOUR_USERNAME/munchkin-level-counter.git)
+    ```
+    *(Don't forget to replace `YOUR_USERNAME` with your actual GitHub username)*
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2.  **Navigate to the project directory:**
+    ```bash
+    cd munchkin-level-counter
+    ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4.  **Run the development server:**
+    ```bash
+    npm start
+    ```
+    The application will open automatically in your browser at `http://localhost:3000`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🚢 Deployment
 
-## Learn More
+This project is configured for easy deployment to GitHub Pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To deploy the app, simply run the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm run deploy
+```
+
+This command will build the application and push the contents of the `build` folder to a `gh-pages` branch on your repository.
+
+## 🔮 Future Improvements
+
+- [ ] Save game state to `localStorage` to persist between browser sessions.
+- [ ] Add a "Gear" or "Strength" tracker for each player.
+- [ ] Implement a dice roller.
+- [ ] Create a "Winner" declaration when a player reaches level 10.
